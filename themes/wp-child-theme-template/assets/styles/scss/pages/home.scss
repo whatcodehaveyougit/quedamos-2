@@ -85,6 +85,10 @@ body div.home-page-container {
         padding: 15px;
         border-radius: 50px;
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        margin: auto;
       }
 
       h4 {
@@ -131,8 +135,13 @@ body div.home-page-container {
 
       i {
         height: 32px;
-        padding-right: 10px;
-        line-height: 1;
+        padding-right: 12px;
+        display: flex;
+        align-items: center;
+        svg {
+          height: 40px;
+          width: 40px;
+        }
         &::before {
           color: inherit; /* inherit from nth-child */
         }
